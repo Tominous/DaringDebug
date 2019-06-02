@@ -27,7 +27,7 @@ public class ModConfig
 	@Config.Comment("Show capabilities on advanced tooltips and debug screen for thing under cursor")
 	public static boolean capabilitiesDebug = false;
 
-	/*
+	
     @Name("Mod debugging")
     @Config.Comment("Mod debugging options")
     public static Debugging zdebugging = new Debugging();
@@ -35,10 +35,10 @@ public class ModConfig
     public static class Debugging
     {
         @Name("Debug mode")
-        @Config.Comment("Enable debug features on this menu, display extra debug info.")
+        @Config.Comment("Enable debug features on this menu, display extra debug information.")
         public boolean debug = false;
     }
-    */
+    
     
     @Mod.EventBusSubscriber(modid = Reference.MOD_ID)
     private static class EventHandler
